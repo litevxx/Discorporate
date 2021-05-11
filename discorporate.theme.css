@@ -1,0 +1,201 @@
+/**
+    * @name Discorporate
+    * @version 0.0.1
+    * @description Reverts all changes made during the Great Rebranding of 2021, including reactions, icons, colors, and default profile pictures.
+    * @author litevx#6982
+    * @penis balls
+    * @source https://github.com/litevxx/Discorporate
+**/
+
+:root{
+    /* BRAND EXPERIMENT WILL CHANGE /!\ PLACEHOLDER /!\ */
+    --font-display: 'Whitney' !important;
+    --brand-experiment: #7289da !important;
+    --text-positive: #43b581 !important;
+    /* PLACE HOLDERS PLS FIX ONCE ROLLOUT*/
+    --brand-experiment-500: #7289da !important;
+    --brand-experiment-560: #7289da !important;
+    --brand-experiment-600: #4e5d94 !important;
+}
+
+
+/* User Popup Color when Playing*/
+.headerPlaying-j0WQBV {
+    background: #7289da !important;
+}
+
+/* Hide Nitro Icon in Settings*/
+.premiumTabItem-1QTfBr .icon-Zc-uZZ{
+    display: none;
+}
+
+/* Revert Mention Redesigns */
+/* @roles */
+.theme-dark .wrapper-3WhCwL {
+    color: #7289da;
+    background: rgba(114,137,218,.1);
+}   
+.theme-dark .wrapper-3WhCwL:hover {
+    background: #7289da;
+    color: white;
+}
+
+.theme-light .wrapper-3WhCwL {
+    color: #7289da;
+    background: rgba(114,137,218,.1);
+}   
+.theme-light .wrapper-3WhCwL:hover {
+    background: #7289da;
+    color: white;
+}
+
+/* @everyone */
+.roleMention-2Bj0ju{
+    background: var(--brand-experiment-30a);
+    color: #7289da !important;
+}
+/* @mentions */
+.mention.interactive:hover{
+    color: #7289da !important; 
+}
+
+/* Revert Reactions Redesign */
+
+.theme-dark .reaction-1hd86g{
+    background: #ffffff0f !important;
+    border-radius: 4px;
+    margin-right: 3px;
+}
+.theme-light .reaction-1hd86g{
+    background: #06060714 !important;
+    border-radius: 4px;
+    margin-right: 3px;
+    border-color: transparent !important;
+}
+
+.reactionInner-15NvIl{
+    padding: 0 4.5px !important;
+    height: 18px;
+}
+.theme-dark .reactionCount-2mvXRV{
+    color: #72767d;
+}
+.theme-light .reactionCount-2mvXRV{
+    color: #747f8d;
+}
+.reaction-1hd86g:hover{
+    border-color: transparent !important;
+}
+.theme-dark .reactionMe-wv5HKu{
+    background: #7289da4d !important;
+    border-color: transparent;
+}
+.theme-light .reactionMe-wv5HKu{
+    background: #7289da4d !important;
+    border-color: transparent;
+}
+.theme-dark .reactionMe-wv5HKu .reactionCount-2mvXRV{
+    color: #7289da !important;
+}
+
+/* Bonus!! Remove this shitty nitro 4000 characters ad because discord can suck my cock */
+.upsell-34F9Me{
+    display: none;
+}
+
+/* Home Button Revert */
+.theme-dark .homeIcon-FuNwkv{
+    color: transparent;
+    background:url("https://cdn.discordapp.com/attachments/520810025275490324/841659744066338857/homeIcon.png");
+}
+.theme-light .homeIcon-FuNwkv{
+    color: transparent;
+    background:url("https://cdn.discordapp.com/attachments/520810025275490324/841699638113337364/lightIcon.png");
+}
+
+.theme-light .wrapper-1BJsBx.selected-bZ3Lue > .homeIcon-FuNwkv{
+    color: transparent;
+    background:url("https://cdn.discordapp.com/attachments/520810025275490324/841659744066338857/homeIcon.png");
+}
+
+/* File Icons */
+.icon-1kp3fr[title="unknown"]{
+    content: url("https://cdn.discordapp.com/attachments/520810025275490324/841660814813036625/genericFile.svg");
+}
+.icon-1kp3fr[title="archive"]{
+    content: url("https://cdn.discordapp.com/attachments/520810025275490324/841665225395666944/archiveFile.svg");
+}   
+.icon-1kp3fr[title="document"]{
+    content: url("https://cdn.discordapp.com/attachments/520810025275490324/841665496902533120/documentFile.svg");
+}  
+.icon-1kp3fr[title="spreadsheet"]{
+    content: url("https://cdn.discordapp.com/attachments/520810025275490324/841665774334377994/excelFile.svg");
+}
+.icon-kyxXVr.webcode-22GGLX{
+    content: url("https://cdn.discordapp.com/attachments/520810025275490324/841661300878213120/codeFile.svg")
+}
+.audioMetadata-3zOuGv:before{
+    background-image: url("https://cdn.discordapp.com/attachments/520810025275490324/841661692526329886/audioFile.svg") !important;
+}
+/* your file is too big */
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.one-2crnLX {
+    background-image: url(/assets/60c3eaf0d7173c929482362ea1d2543a.svg);
+    opacity: 0;
+}
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.two-3BBQI9 {
+    background-image: url(/assets/4ab2ee5027741df387151ca717ae5614.svg);
+}
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.three-27ScFD {
+    background-image: url(/assets/a4ef7d20760cef4c165825770fd12ac7.svg);
+    opacity: 0;
+}
+/* Revert New Green */
+svg rect[mask="url(#svg-mask-status-online)"]{
+    fill: #43b581 !important;
+}
+.container-3auIfb[style="opacity: 1; background-color: rgb(59, 165, 92);"]{
+   background: #43b581 !important;
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY{
+    background-color: #43b581 !important;
+}
+.lookFilled-1Gx00P.colorRed-1TFJan{
+    background-color: #f04747 !important;
+}
+
+/* Revert New Profile Pictures */
+/* red */
+.wrapper-3t9DeA img[src="/assets/4c1b599b1ef5b9f1874fdb9933f3e03b.png"]{
+    content: url("https://cdn.discordapp.com/attachments/520810025275490324/841668787673628682/1cbd08c76f8af6dddce02c5138971129.png") !important;
+}
+img.avatar-1BDn8e[src="/assets/4c1b599b1ef5b9f1874fdb9933f3e03b.png"]{
+    content: url("https://cdn.discordapp.com/attachments/520810025275490324/841668787673628682/1cbd08c76f8af6dddce02c5138971129.png") !important;
+}
+/* yellow */
+.wrapper-3t9DeA img[src="/assets/6f26ddd1bf59740c536d2274bb834a05.png"]{
+    content: url("https://cdn.discordapp.com/attachments/520810025275490324/841668786171150386/0e291f67c9274a1abdddeb3fd919cbaa.png") !important;
+}
+img.avatar-1BDn8e[src="/assets/6f26ddd1bf59740c536d2274bb834a05.png"]{
+    content: url("https://cdn.discordapp.com/attachments/520810025275490324/841668786171150386/0e291f67c9274a1abdddeb3fd919cbaa.png") !important;
+}
+/* grey */
+.wrapper-3t9DeA img[src="/assets/c09a43a372ba81e3018c3151d4ed4773.png"]{
+    content: url("https://cdn.discordapp.com/attachments/520810025275490324/841668784724508692/322c936a8c8be1b803cd94861bdfa868.png") !important;
+}
+img.avatar-1BDn8e[src="/assets/c09a43a372ba81e3018c3151d4ed4773.png"]{
+    content: url("https://cdn.discordapp.com/attachments/520810025275490324/841668784724508692/322c936a8c8be1b803cd94861bdfa868.png") !important;
+}
+/* green */
+.wrapper-3t9DeA img[src="/assets/7c8f476123d28d103efe381543274c25.png"]{
+    content: url("https://cdn.discordapp.com/attachments/520810025275490324/841668790726950912/dd4dbc0016779df1378e7812eabaa04d.png") !important;
+}
+img.avatar-1BDn8e[src="/assets/7c8f476123d28d103efe381543274c25.png"]{
+    content: url("https://cdn.discordapp.com/attachments/520810025275490324/841668790726950912/dd4dbc0016779df1378e7812eabaa04d.png") !important;
+}
+/* blue */
+.wrapper-3t9DeA img[src="/assets/1f0bfc0865d324c2587920a7d80c609b.png"]{
+    content: url("https://cdn.discordapp.com/attachments/520810025275490324/841668788683276329/6debd47ed13483642cf09e832ed0bc1b.png") !important;
+}
+img.avatar-1BDn8e[src="/assets/1f0bfc0865d324c2587920a7d80c609b.png"]{
+    content: url("https://cdn.discordapp.com/attachments/520810025275490324/841668788683276329/6debd47ed13483642cf09e832ed0bc1b.png") !important;
+}
